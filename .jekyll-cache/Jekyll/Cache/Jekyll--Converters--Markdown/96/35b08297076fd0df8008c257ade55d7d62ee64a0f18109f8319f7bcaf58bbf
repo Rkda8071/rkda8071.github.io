@@ -1,0 +1,14 @@
+I"Q<p>이 명령어들은 cmd 창에서도 되고, git bash에서도 실행이 됨.</p>
+
+<p>원격 저장소(github 안에 있는)와 로컬 저장소 (내 컴퓨터에 있는)를 오가면서 개발을 할 때 유용.</p>
+
+<ul>
+  <li>git init : 현재 디렉터리를 Git 저장소로 변환.</li>
+  <li>git add : 파일을 원격 저장소에 추가.</li>
+  <li>git commit : 디렉토리의 변경과 추가를 저장소에 기록.</li>
+  <li>git push : 로컬 저장소의 변경사항을 github에 반영.</li>
+  <li>git checkout : 현재 위치하고 있지 않은 저장소를 체크아웃.</li>
+  <li>git merge : 브랜치에서 하던 작업을 끝내고, 동료가 볼 수 있는 master브랜치로 합치는 과정.</li>
+  <li>git pull : 로컬 저장소 작업할 때, 작업하고 있는 저장소의 최신 버전을 받아옴.</li>
+</ul>
+:ET
