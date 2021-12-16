@@ -1,33 +1,13 @@
-Read Only by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Read Only - 테마 사용
 
+[https://github.com/old-jekyll-templates/Read-Only-Jekyll-Theme](https://github.com/old-jekyll-templates/Read-Only-Jekyll-Theme)
 
-Just a super simple single-page responsive template built for personal sites and portfolios
-(although it'd definitely work for other stuff too). Includes a contact form, pre-styled
-elements, and Sass sources.
+Header에 Home, Connect, Blog가 있었는데, 내가 사용할 것은 Blog뿐이었기에 Home, Connect를 _include/head.html에서의 해당 항목을 삭제, 또한 테마의 프로필 소개, 사진의 dummy file을 수정하였다.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d3e72061-4802-4c3f-93c7-4e4c774d9832/Untitled.png)
 
-(* = Not included)
+그런데 github에 업로드한 후 [https://rkda8071.github.io/](https://rkda8071.github.io/)에 접속해봤더니 테마 적용이 제대로 되지 않았다...
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b494249a-f6fc-475f-9aba-a51411a85da1/Untitled.png)
 
-AJ
-n33.co @n33co dribbble.com/n33
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		skel (getskel.com)
+_config.yml의 baseurl과 url을 ""으로 수정해주었더니 [github.io](http://github.io)에서도 정상적으로 작동하였다!
